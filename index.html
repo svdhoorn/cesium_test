@@ -32,7 +32,7 @@
     //const buildingTileset = await Cesium.createOsmBuildingsAsync();
     //viewer.scene.primitives.add(buildingTileset);
 
-	const tileset = await Cesium.Cesium3DTileset.fromUrl("https://data.3dbag.nl/v20240228/3dtiles/lod22/tileset.json");
+	const tileset = await Cesium.Cesium3DTileset.fromUrl("https://3dtilesnederland.nl/tiles/1.0/implicit/nederland/200.json");
 	viewer.scene.primitives.add(tileset);
 
 	// Set the camera to view the newly added tileset
