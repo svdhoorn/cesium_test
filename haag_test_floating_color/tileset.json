@@ -1,0 +1,61 @@
+{
+	"asset" : {
+		"version" : "1.0"
+	},
+	"properties" : {
+		"object_guid" : {},
+		"imgeo_id" : {},
+		"id" : {
+			"minimum" : 323393,
+			"maximum" : 323393
+		},
+		"bestek_nr" : {},
+		"haagtype" : {},
+		"oppervlakte" : {
+			"minimum" : 524.54,
+			"maximum" : 524.54
+		},
+		"woonplaats" : {},
+		"wijk" : {},
+		"buurt" : {},
+		"openbare_ruimte" : {},
+		"kl_restlevensduur" : {},
+		"kl_groenbestek" : {},
+		"kl_bgtcode_stuf" : {},
+		"pg_id" : {
+			"minimum" : 2401,
+			"maximum" : 2401
+		},
+		"soort_object" : {}
+	},
+	"geometricError" : 198.4357954594519,
+	"root" : {
+		"boundingVolume" : {
+			"region" : [ 0.10425930265381426, 0.911450161552918, 0.10426624694949134, 0.9114812868293005, 55.79354615602642, 57.79354015458375 ]
+		},
+		"geometricError" : 198.4357954594519,
+		"refine" : "REPLACE",
+		"content" : {
+			"boundingVolume" : {
+				"region" : [ 0.10425930265381426, 0.911450161552918, 0.10426624694949134, 0.9114812868293005, 55.79354615602642, 57.79354015458375 ]
+			},
+			"uri" : "data/data1.b3dm"
+		},
+		"children" : [
+			{
+				"boundingVolume" : {
+					"region" : [ 0.10425930265381426, 0.911450161552918, 0.10426624694949134, 0.9114812868293005, 55.79354615602642, 57.79354015458375 ]
+				},
+				"geometricError" : 0,
+				"refine" : "REPLACE",
+				"content" : {
+					"boundingVolume" : {
+						"region" : [ 0.10425930265381426, 0.911450161552918, 0.10426624694949134, 0.9114812868293005, 55.79354615602642, 57.79354015458375 ]
+					},
+					"uri" : "data/data0.b3dm"
+				},
+				"children" : []
+			}
+		]
+	}
+}
